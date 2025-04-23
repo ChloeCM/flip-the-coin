@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #404a65;
+  margin: 10px;
+  color: #ecedf0;
+}
+
+header > h1 {
+  font-size: 50px;
+}
+
+.coin-img {
+  display: flex;
+  flex-direction: column;
+  max-width: 160px;
+  margin: auto;
+  padding-top: 60px;
+}
+
+.head-img {
+  padding-bottom: 40px;
+}
+
+.shadow-img {
+  padding-bottom: 40px;
+}
+
+.answer {
+  padding-bottom: 60px;
+}
+
+.btn {
+  background-color: #1f6fb0;
+  border: none;
+  color: #ecedf0;
+  padding: 8px 40px;
+  font-weight: bolder;
+  border-radius: 5px;
+  margin: 20px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.answer-text {
+  color: white;
+}
