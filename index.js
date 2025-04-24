@@ -1,25 +1,3 @@
-// const randomButton = document.querySelector("#btn");
-
-// randomButton.addEventListener("click", () => {
-//   const answerContainer = document.getElementById("answer-container");
-//   const coinAnswerImgEl = document.getElementById("coin-answer");
-
-//   const headsOrTailsArr = ["Heads", "Tails"];
-
-//   const answerIndex = Math.floor(Math.random() * headsOrTailsArr.length);
-//   const answer = headsOrTailsArr[answerIndex];
-
-//   answerContainer.innerHTML = `<h2 class="answer-text">${answer}</h2>`;
-
-//   const coinImgAnswer =
-//     answer === "Heads" ? "/images/heads.svg" : "/images/tails.svg";
-
-//   coinAnswerImgEl.src = coinImgAnswer;
-// });
-//
-//
-//
-//
 const randomButton = document.getElementById("btn");
 const restartButton = document.getElementById("restart-btn");
 const answerContainer = document.getElementById("answer-container");
